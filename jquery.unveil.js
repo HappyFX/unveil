@@ -34,7 +34,7 @@
         if ($e.is(":hidden")) return;
 
         var wt = $w.scrollTop(),
-            wb = wt + $w.height(),
+            wb = wt + window.innerHeight,
             et = $e.offset().top,
             eb = et + $e.height();
 
